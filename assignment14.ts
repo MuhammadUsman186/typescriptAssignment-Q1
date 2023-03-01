@@ -1,0 +1,11 @@
+var list=['Zam-Zam-Well','Madinah','Falasteen','Safa-Marwa','Arafat'];
+console.log(list);
+var sortedList =list.slice().sort();
+console.log(sortedList);
+console.log(list);
+const sortedArray = list.slice().sort((a, b) => b.localeCompare(a));
+console.log(sortedArray);
+console.log(list.reverse());
+console.log(list.reverse());
+console.log(list.sort());
+console.log(list.reverse());
